@@ -1,0 +1,68 @@
+---
+layout: main
+title: Vendors
+permalink: /vendors/
+nav: nav-min
+---
+
+<section class="page-section" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading text-uppercase mb-5">Meet Our Vendors!</h3>
+        <!-- <h3 class="section-subheading text-muted">
+          Lorem ipsum dolor sit amet consectetur.
+        </h3> -->
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      {% for vendor in site.data._config.vendors.list %}
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img
+            class="mx-auto rounded-circle"
+            src="{{vendor.img-link}}"
+            alt=""
+          />
+          <h4>{{vendor.title}}</h4>
+          <p class="text-muted">{{vendor.services}}</p>
+          <h5 class="fs-2">{{vendor.phoneno}}</h5>
+          <h5>{{vendor.name}}</h5>
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="{{vendor.ig-link}}" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+
+            <!-- <li class="list-inline-item">
+              <a href="https://facebook.com">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li> -->
+
+            <li class="list-inline-item">
+              <a href="{{vendor.yelp-link}}" target="_blank">
+                <i class="fab fa-yelp"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <!-- <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
+            laboriosam veritatis, quos non quis ad perspiciatis, totam corporis
+            ea, alias ut unde. <strong>Markdown</strong> supported.
+          </p>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+<!-- End Team -->
