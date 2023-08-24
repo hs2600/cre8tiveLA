@@ -68,7 +68,26 @@ services:
   section: services
   list:
     - title: "Wedding Planning"
-      icon-link: "fa-solid fa-ring"
+      desc: "We offer a range of wedding planning services, including Day of Wedding Planning and Complete Wedding Planning options. Our services cover everything from booking all wedding vendors to arranging transportation to vendor meetings, while benefiting from unlimited office consultations. We handle vendor payments, on your behalf, with the convenience of a single invoice. Our fee structure involves a 20% charge based on the entire invoice. Our professional staff ensures seamless event execution."
+      icon-link: "fa-solid fa-ring fa-stack-1x fa-inverse"
+    - title: "Event Planning"
+      desc: "Our services cover a wide spectrum of events, including Corporate Events, Quinceañeras, and Ceremonies. We also provide a variety of additional offerings such as PA Systems, Photobooths, Photographers, Videographers, Catering, and Decor. Furthermore, we offer Video Projectors and Screens, Florists, Venues, Hair Stylists, Makeup Artists, Casino Party Rentals, as well as accessories like Step and Repeat Banners, Red Carpet, and Velvet Rope Stanchions."
+      icon-link: "fa-solid fa-cake-candles fa-stack-1x fa-inverse"
+
+packages:
+  title: " "
+  text: " "
+  section: packages
+  list:
+    - title: "Silver Package"
+      price: "$2000"
+      color: "bg-secondary"
+    - title: "Gold Package"
+      price: "$2700"
+      color: "bg-warning"
+    - title: "Diamond Package"
+      price: "$3000"
+      color: "bg-light"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -7,16 +7,35 @@ nav: nav-min
 title: Services
 ---
 
+<!-- SERVICES -->
+<div class="container py-5">
+  <div class="row justify-content-center">
+    {% for service in site.data._config.services.list %}
+    <div class="col-md-4 mx-5">
+      <span class="fa-stack fa-4x">
+        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+        <i class="{{service.icon-link}}"></i>
+      </span>
+      <h4 class="service-heading"><p>{{service.title}}</p></h4>
+      <div class="text-muted">
+        <p>{{service.desc}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
 <!-- PACKAGES -->
-<div class="container d-none">
+<div class="container">
   <div class="row">
+    {% for package in site.data._config.packages.list %}
     <div class="col col-md-4">
-      <!-- === SILVER PACKAGE === -->
+      <!-- === PACKAGE === -->
       <div
-        class="card text-dark bg-secondary shadow-lg mb-3 h-100"
+        class="card text-dark {{package.color}} shadow-lg mb-3 h-100"
         data-aos="flip-left"
       >
-        <h2 class="card-header">SILVER PACKAGE</h2>
+        <h2 class="card-header text-center">{{package.title | upcase }}</h2>
         <div class="card-body">
           <!-- <h5 class="card-title">Warning card title</h5> -->
           <div class="card-text mt-2">
@@ -32,7 +51,9 @@ title: Services
             <li>Up to 3 in Office Consultations</li>
 
             <div class="text-center">
-              <h4 class="mt-3" style="margin-bottom: -20px"></h4>
+              <h4 class="mt-3" style="margin-bottom: -20px">
+                {{package.price}}
+              </h4>
             </div>
           </div>
         </div>
@@ -45,10 +66,11 @@ title: Services
         </div>
       </div>
     </div>
+    {% endfor %}
   </div>
 </div>
 
-<div class="container">
+<div class="container d-none">
   <div class="row">
     <div class="col col-md-4">
       <div class="card text-dark bg-secondary shadow-lg mb-3 h-100">
@@ -137,25 +159,3 @@ title: Services
   </div>
 </div>
 <!-- PACKAGES END -->
-
-<!-- SERVICES -->
-
-<div class="container">
-  <div class="row">
-    {% for service in site.data._config.services.list %}
-    <div class="col-md-4">
-      <span class="fa-stack fa-4x">
-        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-        <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-      </span>
-      <h4 class="service-heading"><p>E-Commerce</p></h4>
-      <div class="text-muted">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-          maxime quam architecto quo inventore harum ex magni, dicta impedit.
-        </p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
