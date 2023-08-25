@@ -12,8 +12,8 @@ title: Services
   <div class="row justify-content-center mt-5">
     {% for service in site.data._config.services.list %}
 
-    <div class="col col-md-5 py-2">
-      <div class="card" style="box-shadow: 7px 7px 10px #e7e5db6c">
+    <div class="col col-md-6 py-2">
+      <div class="card h-100" style="box-shadow: 7px 7px 10px #e7e5db6c">
         <div class="card-header text-center pt-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-dark"></i>
@@ -23,6 +23,7 @@ title: Services
         </div>
         <div class="card-body">
           <ul class="card-text" style="font-size: 20px">
+            {% if service.title == "Wedding Planning" %}
             <li>Day of Wedding Planning Service</li>
             <li>Complete Wedding Planning Service</li>
             <li>We Book All Wedding Service</li>
@@ -31,6 +32,34 @@ title: Services
             <li>Professional Staff to Run Event</li>
             <li>Unlimited Office Consultations</li>
             <li>Fee is 20% of Entire Invoice</li>
+            {% endif %} {% if service.title == "Event Planning" %}
+            <div class="container">
+              <div class="row">
+                <div class="col col-lg-6">
+                  <li>Corporate Events</li>
+                  <li>Quinceañeras</li>
+                  <li>Ceremonies</li>
+                  <li>PA Systems</li>
+                  <li>Photobooths</li>
+                  <li>Photographers</li>
+                  <li>Videographers</li>
+                  <li>Catering</li>
+                  <li>Decor</li>
+                </div>
+                <div class="col col-lg-6">
+                  <li>Video Projectors and Screens</li>
+                  <li>Florists</li>
+                  <li>Venues</li>
+                  <li>Hair Stylists</li>
+                  <li>Makeup Artists</li>
+                  <li>Casino Party Rentals</li>
+                  <li>Step and Repeat Banners</li>
+                  <!-- <li> Red Carpet and Velvet Rope Stanchions </li> -->
+                </div>
+              </div>
+            </div>
+
+            {% endif %}
           </ul>
         </div>
       </div>
@@ -63,10 +92,7 @@ title: Services
     {% for package in site.data._config.packages.list %}
     <div class="col-11 col-sm-9 col-lg-4 py-4">
       <!-- === PACKAGE === -->
-      <div
-        class="card text-dark {{package.color}} shadow-lg mb-3 h-100"
-        data-aos="flip-left"
-      >
+      <div class="card text-dark {{package.color}} shadow-lg mb-3 h-100">
         <h4 class="card-header">{{package.title | upcase }}</h4>
         <div class="card-body">
           <!-- <h5 class="card-title">Warning card title</h5> -->
