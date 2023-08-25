@@ -9,19 +9,38 @@ title: Services
 
 <!-- SERVICES -->
 <div class="container py-5">
-  <div class="row justify-content-center">
+  <div class="row justify-content-center mt-5">
     {% for service in site.data._config.services.list %}
-    <div class="col-md-4 mx-5">
+    <div class="col-md-4 mt-5 py-2 text-center">
       <span class="fa-stack fa-4x">
-        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+        <i class="fas fa-circle fa-stack-2x text-dark"></i>
         <i class="{{service.icon-link}}"></i>
       </span>
       <h4 class="service-heading"><p>{{service.title}}</p></h4>
-      <div class="text-muted">
+      <!-- <div class="text-muted">
         <p>{{service.desc}}</p>
+      </div> -->
+    </div>
+    <div class="col col-md-5 py-2">
+      <div class="card">
+        <div class="card-body">
+          <ul class="card-text" style="font-size: 20px">
+            <li>Day of Wedding Planning Service</li>
+            <li>Complete Wedding Planning Service</li>
+            <li>We Book All Wedding Service</li>
+            <li>We Drive you to meet your vendors</li>
+            <li>One invoice, we pay all Vendors for you</li>
+            <li>Professional Staff to Run Event</li>
+            <li>Unlimited Office Consultations</li>
+            <li>Fee is 20% of Entire Invoice</li>
+          </ul>
+        </div>
       </div>
     </div>
     {% endfor %}
+    <div class="col-12 text-center mt-4 py-3">
+      <img src="assets/img/services/services-grid.png" style="width: 800px" />
+    </div>
   </div>
 </div>
 
@@ -35,7 +54,7 @@ title: Services
         class="card text-dark {{package.color}} shadow-lg mb-3 h-100"
         data-aos="flip-left"
       >
-        <h2 class="card-header text-center">{{package.title | upcase }}</h2>
+        <h4 class="card-header text-center">{{package.title | upcase }}</h4>
         <div class="card-body">
           <!-- <h5 class="card-title">Warning card title</h5> -->
           <div class="card-text mt-2">
