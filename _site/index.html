@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
   <meta charset="utf-8" />
   <meta
     name="viewport"
@@ -13,8 +12,17 @@
 
   <title></title>
 
+  <link rel="stylesheet" href="/assets/css/custom.css" />
+
   <!-- Bootstrap core CSS -->
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  />
 
   <!-- Custom fonts for this template -->
   <link href="/assets/css/all.min.css" rel="stylesheet" type="text/css" />
@@ -50,11 +58,9 @@
 </head>
 
 
-<body id="page-top">
-
-    <!-- Navigation -->
+  <body id="page-top"><!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-  <div class="container"><a class="navbar-brand js-scroll-trigger" href="/welcome.html"
+  <div class="container"><a class="navbar-brand js-scroll-trigger" href="/"
   ><img src="/assets/img/logo.webp" style="width: 200px"
 /></a>
 <button
@@ -90,7 +96,7 @@
     </li>
 
     <li class="nav-item">
-      <a class="nav-link js-scroll-trigger" href="/gallery">Gallery</a>
+      <a class="nav-link js-scroll-trigger" href="/portfolio">Portfolio</a>
     </li>
 
     <li class="nav-item">
@@ -117,7 +123,15 @@
     <div class="intro-text">
       <div class="intro-lead-in"></div>
       <div class="intro-heading text-uppercase">
-        <p>EVENT PLANNING AT ITS FINEST</p>
+        <p
+          style="
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+              1px 1px 0 #000;
+          "
+        >
+          EVENT PLANNING AT ITS FINEST
+        </p>
+        <!-- <p>Serving the South Bay for over 25 years.</p> -->
       </div>
       <a
         class="btn btn-dark btn-xl text-uppercase js-scroll-trigger"
@@ -129,773 +143,225 @@
 </header>
 
 <!-- End Header -->
-
-
-    <section class="page-section" id="welcome">
-        <div class="container">
-
-            
-            <section class="page-section" id="welcome">
-    <div class="container">
-
-
-        <!-- <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase"> </h2>
-            
-            <h3 class="section-subheading text-muted"> </h3>
-            
-        </div>
-            </div> -->
-
-        <div class="row text-center mb-5">
-
-            <div class="col-md-4 mb-5">
-                <!-- <span class="fa-stack fa-4x">
-                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading"><p>DJ/MC Service</p>
-                </h4>
-                <div class="text-muted"><p>With over 25 years of experience, Cre8tiveLA will take your party to the next level whether it’s a Wedding, Quinceañera, Corporate Event, or Private Party!</p>
-                </div> -->
-                <div class="card h-100 shadow-lg bg-body-tertiary rounded">
-                    <img src=" assets/img/home/djmc-service.jpg " class="card-img-top" alt="Party Decor" />
-                    <div class="card-body">
-                        <h5 class="card-title"> DJ/MC Service </h5>
-                        <p class="card-text">
-                            With over 25 years of experience, Cre8tiveLA will take your party to the next level
-                            whether it's a Wedding, Quinceañera, Corporate Event, or Private Party!
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#services">
-                            <button type="button" class="btn btn-dark">Learn more</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-5">
-                <!-- <span class="fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading"><p>Event Planning</p>
-                    </h4>
-                    <div class="text-muted"><p>Event planning has never been easier. Let Cre8tiveLA book all your vendors, coordinate the timeline, and run your event!</p>
-                </div> -->
-                <div class="card h-100 shadow-lg bg-body-tertiary rounded">
-                    <img src=" assets/img/home/event-planning.jpg " class="card-img-top" alt="Party Decor" />
-                    <div class="card-body">
-                        <h5 class="card-title"> Event Planning </h5>
-                        <p class="card-text">
-                            Event planning has never been easier. Let Cre8tiveLA book all your vendors, coordinate
-                            the timeline, and run your event!
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#services">
-                            <button type="button" class="btn btn-dark">Learn more</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-5">
-                <!-- <span class="fa-stack fa-4x">
-                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading"><p>Custom Lighting</p>
-                </h4>
-                        <div class="text-muted"><p>Transform your ordinary banquet hall into the space of your dreams with custom lighting options to create a cool vibe.</p>
-                </div> -->
-                <div class="card h-100 shadow-lg bg-body-tertiary rounded">
-                    <img src=" assets/img/home/lighting.jpg " class="card-img-top" alt="Party Decor" />
-                    <div class="card-body">
-                        <h5 class="card-title"> Custom Lighting </h5>
-                        <p class="card-text">
-                            Transform your ordinary banquet hall into the space of your dreams with custom lighting
-                            options to create a cool vibe.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#services">
-                            <button type="button" class="btn btn-dark">Learn more</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- WHY CRE8TIVE LA? -->
-        <h1 class="text-center"> Why Cre8tiveLA? </h1>
-        <div class="row justify-content-center">
-            <div class="col-11">
-                <p>
-                    &bull; Cre8tiveLA offers top-notch DJ services, MCs, and event
-                    planning with over 20 years of industry experience. We take
-                    pride in providing the finest event services thanks to our loyal
-                    clientele. Our extensive collection of high-end equipment,
-                    including wireless uplights, wedding monograms, and textured
-                    lighting, ensures your event is nothing short of exceptional.
-                </p>
-            </div>
-            <div class="col-11">
-                <p>
-                    &bull; All of our vendors are top-notch, and we only work with
-                    vendors that meet the highest quality in their industry. Due to
-                    the high referral rate from our clientele, we decided it was
-                    time to join the online media world, this will give potential
-                    clients the opportunity to see the quality of our work.
-                </p>
-            </div>
-            <div class="col-11">
-                <p>
-                    &bull; Cre8tiveLA, based in the City of Lomita, offers free
-                    consultations by appointment at our central office. For any
-                    questions or concerns, please don't hesitate to contact us. Rest
-                    assured, with over two decades of experience, our track record
-                    speaks for itself.
-                </p>
-            </div>
-            <div class="col text-center">
-                <p>Thank you for your time.</p>
-                <h5>- Ricardo Velasquez -</h5>
-                <h6 class="text-secondary" style="font-weight: 400">
-                    DJ/MC/Event Planner
-                </h6>
-                <h6 style="font-style: italic">Since 1993</h6>
-                <h5>(310)489-8835</h5>
-            </div>
-        </div>
-
+<section class="page-section" id="welcome">
+      <div style="margin-top: 60px"><!-- <header class="masthead">
+  <div
+    class="container"
+    style="background-image: url(/assets/img/gallery/wgallery1.webp)"
+  >
+    <div class="intro-text">
+      <div class="intro-lead-in">
+        <p>Cre8tive Wedding and Events</p>
+      </div>
+      <div class="intro-heading text-uppercase">
+        <p>EVENT PLANNING AT ITS FINEST</p>
+      </div>
+      <a
+        class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+        href="#services"
+        >Tell Me More</a
+      >
     </div>
-</section>
+  </div>
+</header> -->
 
-
-<section class="page-section" id="testimonials" style="margin-top: -100px;">
-    <div class="container text-center">
-        <h1> Testimonials </h1>
-        <div class="row justify-content-center">
-
-
-            <div class="col-5">
-                <p class="" style="font-style: italic">
-                    Thank you so much for helping make our wedding so much fun. We had compliments all night and
-                    days after how fun our wedding was. And the group picture came out great... Thank you again.<br>
-                    -Frank & Carolyn Flores
-                </p>
-            </div>
-
-            <div class="col-5">
-                <p class="" style="font-style: italic">
-                    Thank you for making our vision and beyond come to reality. Thank you for your time and
-                    attention to details. Thank you for listening to and getting to know the bride. Your time and
-                    efforts are truly appreciated!<br>
-                    -Mavis & Dannie
-                </p>
-            </div>
-
+<!-- SERVICES PREVIEW -->
+<div class="container mb-5" style="margin-top: -90px;">
+  <div class="row text-center">
+    <div class="col-md-4 mb-5">
+      <div class="card h-100 shadow-lg bg-body-tertiary rounded">
+        <div style="overflow: hidden;">
+          <div class="img-zoom">
+            <img src="/assets/img/home/djmc-service.jpg" class="card-img-top" alt="Party Decor"/>
+          </div>
         </div>
-
+        
+        
+        <div class="card-body">
+          <h5 class="card-title"> DJ/MC Service </h5>
+          <p class="card-text">
+            With over 25 years of experience, Cre8tiveLA will take your
+                party to the next level whether it's a
+                <strong> Wedding</strong>, <strong> Quinceañera</strong>,
+                <strong> Corporate Event</strong>, or
+                <strong> Private Party</strong>!
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="/services">
+            <button type="button" class="btn btn-dark">Learn more</button>
+          </a>
+        </div>
+      </div>
     </div>
-</section>
+
+    <div class="col-md-4 mb-5">
+      <div class="card h-100 shadow-lg bg-body-tertiary rounded">
+        <img src="/assets/img/home/event-planning.jpg" class="card-img-top" alt="Party Decor"/>
+        <div class="card-body">
+          <h5 class="card-title"> Event Planning </h5>
+          <p class="card-text">
+            Event planning at its finest. Let Cre8tiveLA
+                <strong> book all your vendors</strong>,
+                <strong> coordinate the timeline</strong>, and
+                <strong> run your event! </strong>
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="/services">
+            <button type="button" class="btn btn-dark">Learn more</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-5">
+      <div class="card h-100 shadow-lg bg-body-tertiary rounded">
+        <img src="/assets/img/home/lighting.jpg" class="card-img-top" alt="Party Decor"/>
+        <div class="card-body">
+          <h5 class="card-title"> Custom Lighting </h5>
+          <p class="card-text">
+            Transform your ordinary banquet hall into the space of your
+                dreams with custom lighting options to create a cool vibe.
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="/services">
+            <button type="button" class="btn btn-dark">Learn more</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHY CRE8TIVELA? -->
+<div class="container mb-5">
+  <h1 class="text-center"> Why Cre8tiveLA? </h1>
+  <div class="row justify-content-center" style="font-size: 18px">
+    <div class="col-11">
+      <p>
+        Cre8tiveLA offers top-notch DJ services, MCs, and event
+        planning with over 20 years of industry experience. We take
+        pride in providing the finest event services thanks to our loyal
+        clientele. Our extensive collection of high-end equipment,
+        including wireless uplights, wedding monograms, and textured
+        lighting, ensures your event is nothing short of exceptional.
+      </p>
+    </div>
+    <div class="col-11">
+      <p>
+        All of our vendors are top-notch, and we only work with
+        vendors that meet the highest quality in their industry. Due to
+        the high referral rate from our clientele, we decided it was
+        time to join the online media world, this will give potential
+        clients the opportunity to see the quality of our work.
+      </p>
+    </div>
+    <div class="col-11">
+      <p>
+        Cre8tiveLA, based in the City of Lomita, offers free
+        consultations by appointment at our central office. For any
+        questions or concerns, please don't hesitate to contact us. Rest
+        assured, with over two decades of experience, our track record
+        speaks for itself.
+      </p>
+    </div>
+    <div class="col text-center">
+      <p>Thank you for your time.</p>
+      <h5>- Ricardo Velasquez -</h5>
+      <h6 class="text-secondary" style="font-weight: 400">
+        DJ/MC/Event Planner
+      </h6>
+      <h6 style="font-style: italic">Since 1993</h6>
+      <h5>(310)489-8835</h5>
+    </div>
+  </div>
+</div>
 
 <!-- TESTIMONIALS -->
-<!-- Services -->
-
-<section class="bg-light page-section" id="services">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Services</h2>
-
-                <h3 class="section-subheading text-muted"> </h3>
-
-            </div>
-        </div>
-
-        <div class="row text-center">
-
-            <div class="col col-md-4">
-                <!-- === SILVER PACKAGE === -->
-                <div class="card text-dark bg-secondary shadow-lg mb-3 h-100" data-aos="flip-left">
-                    <h2 class="card-header">SILVER PACKAGE</h2>
-                    <div class="card-body">
-                        <!-- <h5 class="card-title">Warning card title</h5> -->
-                        <div class="card-text mt-2">
-
-
-                            <div class="text-center">
-                                <h4 class="mt-3" style="margin-bottom: -20px"></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <h6 class="card-footer">
-                            <a href="contact.html">
-                                <button type="button" class="btn btn-dark">
-                                    Book now
-                                </button>
-                            </a>
-                        </h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col col-md-4">
-                <!-- === SILVER PACKAGE === -->
-                <div class="card text-dark bg-warning shadow-lg mb-3 h-100" data-aos="flip-left">
-                    <h2 class="card-header">GOLD PACKAGE</h2>
-                    <div class="card-body">
-                        <!-- <h5 class="card-title">Warning card title</h5> -->
-                        <div class="card-text mt-2">
-
-
-                            <div class="text-center">
-                                <h4 class="mt-3" style="margin-bottom: -20px"></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <h6 class="card-footer">
-                            <a href="contact.html">
-                                <button type="button" class="btn btn-dark">
-                                    Book now
-                                </button>
-                            </a>
-                        </h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col col-md-4">
-                <!-- === SILVER PACKAGE === -->
-                <div class="card text-dark bg-light shadow-lg mb-3 h-100" data-aos="flip-left">
-                    <h2 class="card-header">DIAMOND PACKAGE</h2>
-                    <div class="card-body">
-                        <!-- <h5 class="card-title">Warning card title</h5> -->
-                        <div class="card-text mt-2">
-
-
-                            <div class="text-center">
-                                <h4 class="mt-3" style="margin-bottom: -20px"></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <h6 class="card-footer">
-                            <a href="contact.html">
-                                <button type="button" class="btn btn-dark">
-                                    Book now
-                                </button>
-                            </a>
-                        </h6>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
+<div class="container text-center mb-5">
+  <h1> Testimonials </h1>
+  <div class="row justify-content-center">
+    <div class="col-5">
+      <p class="" style="font-style: italic">
+        "Thank you so much for helping make our wedding so much fun. We
+              had compliments all night and days after how fun our wedding was.
+              And the group picture came out great... Thank you again." <br />
+              -<span class="text-secondary"> Frank & Carolyn Flores </span>
+      </p>
     </div>
-</section>
-
-
-
-
-
-
-
-
-
-<!-- End Services -->
-<section class="page-section" id="vendors">
-    <div class="container">
-        <div class="row text-center mb-5">
-
-        </div>
+    <div class="col-5">
+      <p class="" style="font-style: italic">
+        "Thank you for making our vision and beyond come to reality. Thank
+              you for your time and attention to details. Thank you for
+              listening to and getting to know the bride. Your time and efforts
+              are truly appreciated!" <br />
+              -<span class="text-secondary"> Mavis & Dannie </span>
+      </p>
     </div>
-</section> <!-- Portfolio Grid -->
+  </div>
 
-<section class="page-section" id="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">
-                    <p>Portfolio</p>
-                </h2>
-                <h3 class="section-subheading text-muted">
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                </h3>
-            </div>
-        </div>
-        <div class="row">
-
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#p1">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="https://place-hold.it/400x300" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Example</h4>
-                    <p class="text-muted">subtitle</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#p2">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid"
-                        src="https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg"
-                        alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Threads</h4>
-                    <p class="text-muted">Illustration</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#p3">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid"
-                        src="https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg"
-                        alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Explore</h4>
-                    <p class="text-muted">Graphic Design</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- Portfolio Modals -->
-
-
-<div class="portfolio-modal modal fade" id="p1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Title</h2>
-                            <p class="item-intro text-muted">subtitle lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="https://place-hold.it/400x300"
-                                alt="image alt text" />
-                            <p>
-                            <p>Use this area to describe your project. <strong>Markdown</strong> supported.</p>
-
-                            <p>optional info list (delete if not using):</p>
-
-                            <ul class="list-inline">
-                                <li>Date:</li>
-                                <li>Client:</li>
-                                <li>Category:</li>
-                            </ul>
-
-                            </p>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fas fa-times"></i>
-                                Close Project
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
-
-
-<div class="portfolio-modal modal fade" id="p2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Threads</h2>
-                            <p class="item-intro text-muted">subtitle lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto"
-                                src="https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg"
-                                alt="Shirts on a hanger" />
-                            <p>
-                            <p>Use this area to describe your project. <strong>Markdown</strong> supported. This
-                                entry (project1.md) uses links for the image sources. All other projects in the
-                                portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.</p>
-
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Threads</li>
-                                <li>Category: Illustration</li>
-                            </ul>
-                            </p>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fas fa-times"></i>
-                                Close Project
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<section class="page-section d-none" id="welcome">
+  <div class="container">
+    <!-- <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">welcome</h2>
+        
+      </div>
+    </div> -->
+  
+    <div class="row text-center mb-5">
+      
     </div>
+
+    <!-- WHY CRE8TIVE LA? -->
+    <h1 class="text-center"> Why Cre8tiveLA? </h1>
+    <div class="row justify-content-center">
+      <div class="col-11">
+        <p>
+          &bull; Cre8tiveLA offers top-notch DJ services, MCs, and event
+          planning with over 20 years of industry experience. We take
+          pride in providing the finest event services thanks to our loyal
+          clientele. Our extensive collection of high-end equipment,
+          including wireless uplights, wedding monograms, and textured
+          lighting, ensures your event is nothing short of exceptional.
+        </p>
+      </div>
+      <div class="col-11">
+        <p>
+          &bull; All of our vendors are top-notch, and we only work with
+          vendors that meet the highest quality in their industry. Due to
+          the high referral rate from our clientele, we decided it was
+          time to join the online media world, this will give potential
+          clients the opportunity to see the quality of our work.
+        </p>
+      </div>
+      <div class="col-11">
+        <p>
+          &bull; Cre8tiveLA, based in the City of Lomita, offers free
+          consultations by appointment at our central office. For any
+          questions or concerns, please don't hesitate to contact us. Rest
+          assured, with over two decades of experience, our track record
+          speaks for itself.
+        </p>
+      </div>
+      <div class="col text-center">
+        <p>Thank you for your time.</p>
+        <h5>- Ricardo Velasquez -</h5>
+        <h6 class="text-secondary" style="font-weight: 400">
+          DJ/MC/Event Planner
+        </h6>
+        <h6 style="font-style: italic">Since 1993</h6>
+        <h5>(310)489-8835</h5>
+      </div>
+    </div>
+
+  </div>
+</section>
 </div>
-
-
-
-<div class="portfolio-modal modal fade" id="p3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto"
-                                src="https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg"
-                                alt="Keep Exploring" />
-                            <p>
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                nostrum, reiciendis facere nemo!</p>
-
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Explore</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            </p>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fas fa-times"></i>
-                                Close Project
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- End Portfolio Modals -->
-
-<section class="bg-light page-section" id="timeline">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">
-                    <p>Timeline</p>
-                </h2>
-                <h3 class="section-subheading text-muted">our story</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="/assets/img/timeline/1.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>
-                                    <p>1988-1996</p>
-                                </h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <div class="text-muted">
-                                    <p>DJ Ricardo V started DJing at the age of 13 in the South Bay. Back then it
-                                        was strictly vinyl Records. It wasn’t easy finding records in my
-                                        neighborhood.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="timeline-inverted">
-
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="/assets/img/timeline/2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>
-                                    <p>1996-2008</p>
-                                </h4>
-                                <h4 class="subheading">WP Records</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <div class="text-muted">
-                                    <p>At the age of 21, I established my own personal DJ shop in the city of
-                                        Lomita. This marked the birth of <strong>WP Records</strong>, a hub catering
-                                        to all DJ needs, which operated until 2008.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="/assets/img/timeline/3.jpg"
-                                alt="image alt text">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>
-                                    <p>2008</p>
-                                </h4>
-                                <h4 class="subheading">Event Planning</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <div class="text-muted">
-                                    <p>As time changed, so did the business. It eventually transitioned into an
-                                        events company. Knowing and working with so many vendors in our industry
-                                        allowed us to serve our clients better as we could offer them many services
-                                        under one roof.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="timeline-inverted">
-
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="/assets/img/timeline/4.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>
-                                    <p>2023</p>
-                                </h4>
-                                <h4 class="subheading">Cre8tive Wedding and Events</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <div class="text-muted">
-                                    <p>Fast forward to 2023, we’ve been in the industry for over 25 years,
-                                        specializing in DJs, MCs, and Wedding Planning. Now known as Cre8tive
-                                        Weddings and Events, or Cre8tiveLA.com, your go-to for all event-related
-                                        needs.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-
-
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>Be Part <br> of Our <br> Story!</h4>
-                        </div>
-                    </li>
-
-
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- End About -->
-<!-- Team -->
-
-<section class="page-section" id="team">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">OUR AMAZING TEAM</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="/assets/img/team/500x500.jpg" alt="">
-                    <h4>Kay Garland</h4>
-                    <p class="text-muted">Lead Designer</p>
-                    <ul class="list-inline social-buttons">
-
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-
-                        <li class="list-inline-item">
-                            <a href="https://facebook.com">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-
-                        <li class="list-inline-item">
-                            <a href="https://linkedin.com">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="/assets/img/team/2.jpg" alt="">
-                    <h4>Larry Parker</h4>
-                    <p class="text-muted">Lead Marketer</p>
-                    <ul class="list-inline social-buttons">
-
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-
-                        <li class="list-inline-item">
-                            <a href="https://facebook.com">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-
-                        <li class="list-inline-item">
-                            <a href="https://linkedin.com">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="/assets/img/team/500x500.jpg" alt="">
-                    <h4>Diana Perterson</h4>
-                    <p class="text-muted">Lead Developer</p>
-                    <ul class="list-inline social-buttons">
-
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-
-                        <li class="list-inline-item">
-                            <a href="https://facebook.com">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-
-                        <li class="list-inline-item">
-                            <a href="https://linkedin.com">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-                <div class="large text-muted">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis,
-                        quos non quis ad perspiciatis, totam corporis ea, alias ut unde. <strong>Markdown</strong>
-                        supported.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- End Team -->
-<!-- Clients -->
-
-<section class="py-5" id="clients">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-md-3 col-sm-6">
-                <a href="https://github.com/raviriley/agency-jekyll-theme">
-                    <img class="img-fluid d-block mx-auto" src="/assets/img/clients/envato.jpg" alt="envato"
-                        style="max-height: 100px">
-                </a>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <a href="https://github.com/raviriley/agency-jekyll-theme">
-                    <img class="img-fluid d-block mx-auto" src="/assets/img/clients/designmodo.jpg" alt="designmodo"
-                        style="max-height: 100px">
-                </a>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <a href="https://github.com/raviriley/agency-jekyll-theme">
-                    <img class="img-fluid d-block mx-auto" src="/assets/img/clients/themeforest.jpg"
-                        alt="themeforest" style="max-height: 100px">
-                </a>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <a href="https://github.com/raviriley/agency-jekyll-theme">
-                    <img class="img-fluid d-block mx-auto" src="/assets/img/clients/creative-market.jpg"
-                        alt="Creative Market" style="max-height: 100px">
-                </a>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-
-        </div>
-
     </section>
 
         <!-- Footer -->
@@ -965,11 +431,15 @@
         </div>
     </footer>
 
-    <!-- End Footer -->
-
-    <!-- Bootstrap core JavaScript -->
+    <!-- End Footer --> <!-- Bootstrap core JavaScript -->
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+  crossorigin="anonymous"
+></script>
 
 <!-- Plugin JavaScript -->
 <script src="/assets/js/jquery.easing.min.js"></script>
@@ -990,7 +460,5 @@
 <!-- AOS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
-</body>
-
+  </body>
 </html>

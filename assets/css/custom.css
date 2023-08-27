@@ -1,0 +1,13 @@
+.img-zoom:hover {
+  scale: 1.1;
+  transition: 0.60s;
+}
+
+.img-zoom {
+  scale: 1;
+  transition: 0.60s;
+}
+
+.bg-venue {
+  background-color: #efedea;
+}
