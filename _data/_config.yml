@@ -36,6 +36,21 @@ theme: minima
 plugins:
   - jekyll-feed
 
+welcome:
+  title: " "
+  text: " "
+  section: welcome
+  list:
+    - title: "DJ/MC Service"
+      desc: "With over 25 years of experience, Cre8tiveLA will take your party to the next level whether it's a Wedding, Quinceañera, Corporate Event, or Private Party!"
+      img-link: "/assets/img/home/djmc-service.jpg"
+    - title: "Event Planning"
+      desc: "Event planning at its finest. Let Cre8tiveLA book all your vendors, coordinate the timeline, and run your event!"
+      img-link: "/assets/img/home/event-planning.jpg"
+    - title: "Custom Lighting"
+      desc: "Transform your ordinary banquet hall into the space of your dreams with custom lighting options to create a cool vibe."
+      img-link: "/assets/img/home/lighting.jpg"
+
 vendors:
   title: " "
   text: " "
