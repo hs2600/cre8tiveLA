@@ -21,3 +21,7 @@
   opacity: 1;
   transition: 0.60s;
 }
+
+.gallery img{
+  width: 100%;
+}
