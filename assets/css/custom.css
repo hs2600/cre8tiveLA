@@ -24,4 +24,10 @@
 
 .gallery img{
   width: 100%;
+  transition: 0.5s;
+}
+
+.gallery img:hover {
+  filter: grayscale(0.3);
+  transition: 0.5s;
 }
