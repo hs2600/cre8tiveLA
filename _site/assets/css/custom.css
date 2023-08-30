@@ -1,5 +1,6 @@
 .img-zoom:hover {
   scale: 1.1;
+  filter: grayscale(0.3);
   transition: 0.60s;
 }
 
@@ -28,6 +29,6 @@
 }
 
 .gallery img:hover {
-  filter: grayscale(0.3);
+  
   transition: 0.5s;
 }

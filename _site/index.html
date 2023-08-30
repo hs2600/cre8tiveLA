@@ -71,8 +71,8 @@
   aria-controls="navbarResponsive"
   aria-expanded="false"
   aria-label="Toggle navigation"
+  style="margin-right: 10px; font-size: 20px"
 >
-  Menu
   <i class="fas fa-bars"></i>
 </button>
 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -131,12 +131,20 @@
         >
           EVENT PLANNING AT ITS FINEST
         </p>
-        <!-- <p>Serving the South Bay for over 25 years.</p> -->
+        <p
+          class="fs-4"
+          style="
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+              1px 1px 0 #000;
+          "
+        >
+          Serving the South Bay for over 25 years.
+        </p>
       </div>
       <a
         class="btn btn-dark btn-xl text-uppercase js-scroll-trigger"
-        href="#services"
-        >Tell Me More</a
+        href="/services"
+        >Learn More</a
       >
     </div>
   </div>
@@ -170,7 +178,10 @@
   <div class="row text-center">
     
     <div class="col-md-4 mb-5">
-      <div class="card h-100 shadow-lg bg-body-tertiary rounded">
+      <div
+        class="card h-100 shadow-lg bg-body-tertiary rounded"
+        data-aos="flip-up"
+      >
         <div style="overflow: hidden">
           <div class="img-zoom">
             <img src="/assets/img/home/djmc-service.jpg" class="card-img-top" alt="" />
@@ -190,7 +201,10 @@
     </div>
     
     <div class="col-md-4 mb-5">
-      <div class="card h-100 shadow-lg bg-body-tertiary rounded">
+      <div
+        class="card h-100 shadow-lg bg-body-tertiary rounded"
+        data-aos="flip-up"
+      >
         <div style="overflow: hidden">
           <div class="img-zoom">
             <img src="/assets/img/home/event-planning.jpg" class="card-img-top" alt="" />
@@ -210,7 +224,10 @@
     </div>
     
     <div class="col-md-4 mb-5">
-      <div class="card h-100 shadow-lg bg-body-tertiary rounded">
+      <div
+        class="card h-100 shadow-lg bg-body-tertiary rounded"
+        data-aos="flip-up"
+      >
         <div style="overflow: hidden">
           <div class="img-zoom">
             <img src="/assets/img/home/lighting.jpg" class="card-img-top" alt="" />
@@ -234,12 +251,16 @@
 
 <!-- WHY CRE8TIVELA? -->
 <div class="container mb-5">
-  <h1 class="text-center">Why Cre8tiveLA?</h1>
-  <div class="row justify-content-center" style="font-size: 18px">
+  <h1 class="text-center" data-aos="flip-up">Why Cre8tiveLA?</h1>
+  <div
+    class="row justify-content-center"
+    data-aos="fade-right"
+    style="font-size: 18px"
+  >
     <div class="col-11">
       <p>
         Cre8tiveLA offers top-notch DJ services, MCs, and event planning with
-        over 20 years of industry experience. We take pride in providing the
+        over 25 years of industry experience. We take pride in providing the
         finest event services thanks to our loyal clientele. Our extensive
         collection of high-end equipment, including wireless uplights, wedding
         monograms, and textured lighting, ensures your event is nothing short of
@@ -275,41 +296,18 @@
   </div>
 </div>
 
-<!-- TESTIMONIALS -->
-<div class="container text-center mb-5">
-  <h1>Testimonials</h1>
-  <div class="row justify-content-center">
-    <div class="col-5">
-      <p class="" style="font-style: italic">
-        "Thank you so much for helping make our wedding so much fun. We had
-        compliments all night and days after how fun our wedding was. And the
-        group picture came out great... Thank you again." <br />
-        -<span class="text-secondary"> Frank & Carolyn Flores </span>
-      </p>
-    </div>
-    <div class="col-5">
-      <p class="" style="font-style: italic">
-        "Thank you for making our vision and beyond come to reality. Thank you
-        for your time and attention to details. Thank you for listening to and
-        getting to know the bride. Your time and efforts are truly appreciated!"
-        <br />
-        -<span class="text-secondary"> Mavis & Dannie </span>
-      </p>
-    </div>
-  </div>
-</div>
-
-<!-- CLIENTS -->
+<!-- CLIENTS/TESTIMONIALS -->
 <div class="container-fluid text-center mb-5">
+  <h1 data-aos="flip-up">Clients</h1>
   <div
     class="row"
     style="
       margin: 0;
-      border: 1px dashed red;
       display: flex;
       align-items: center; /* Vertical centering */
       justify-content: center; /* Horizontal centering */
     "
+    data-aos="fade-right"
   >
     <div class="col" style="vertical-align: middle">
       <img
@@ -349,77 +347,197 @@
     </div>
   </div>
 </div>
+
+<!-- CLIENTS -->
+<div class="container text-center mb-5">
+  <div class="row justify-content-center">
+    <div class="col-5">
+      <p class="" style="font-style: italic" data-aos="fade-right">
+        "Thank you so much for helping make our wedding so much fun. We had
+        compliments all night and days after how fun our wedding was. And the
+        group picture came out great... Thank you again." <br />
+        -<span class="text-secondary"> Frank & Carolyn Flores </span>
+      </p>
+    </div>
+    <div class="col-5">
+      <p class="" style="font-style: italic" data-aos="fade-left">
+        "Thank you for making our vision and beyond come to reality. Thank you
+        for your time and attention to details. Thank you for listening to and
+        getting to know the bride. Your time and efforts are truly appreciated!"
+        <br />
+        -<span class="text-secondary"> Mavis & Dannie </span>
+      </p>
+    </div>
+  </div>
+</div>
 </div>
     </section>
 
-        <!-- Footer -->
-    <footer class="footer" id="footer" style="background-color: white">
-        <div class="container">
+    <div class="container-fluid" style="background-color: #f5f5f5">
+  <footer
+    class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top justify-content-center"
+  >
+    <div class="col mb-3">
+      <a
+        href="/"
+        class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+      >
+        <img src="/assets/img/logo.png" style="width: 200px" />
+      </a>
+      <p class="text-body-secondary fs-6">© 2023 Cre8tive Wedding and Events</p>
+    </div>
 
-            <div class="row align-items-center">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Cre8tive Wedding and Events 2023</span>
-                </div>
-                <!-- Social Media -->
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
+    <!-- <div class="col mb-3">saaa</div> -->
 
-                        <li class="list-inline-item">
+    <!-- <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+        </li>
+      </ul>
+    </div> -->
 
-                            <a href="https://twitter.com">
-                                <i class="fab fa-twitter"></i>
-                            </a>
+    <div class="col mb-3">
+      <h5>Services</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">
+          <a href="/services" class="nav-link p-0 text-body-secondary"
+            >Wedding Planning</a
+          >
+        </li>
+        <li class="nav-item mb-2">
+          <a href="/services" class="nav-link p-0 text-body-secondary"
+            >Event Planning</a
+          >
+        </li>
+        <li class="nav-item mb-2">
+          <a href="/services/#packages" class="nav-link p-0 text-body-secondary"
+            >Packages</a
+          >
+        </li>
+      </ul>
+    </div>
 
-                        </li>
+    <div class="col mb-3">
+      <h5>Portfolio</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">
+          <a href="/portfolio/lighting" class="nav-link p-0 text-body-secondary"
+            >Lighting</a
+          >
+        </li>
+        <li class="nav-item mb-2">
+          <a href="/portfolio/weddings" class="nav-link p-0 text-body-secondary"
+            >Weddings</a
+          >
+        </li>
+        <li class="nav-item mb-2">
+          <a
+            href="/portfolio/corporate"
+            class="nav-link p-0 text-body-secondary"
+            >Corporate Events</a
+          >
+        </li>
+        <li class="nav-item mb-2">
+          <a
+            href="/portfolio/ceremonies"
+            class="nav-link p-0 text-body-secondary"
+            >Ceremonies</a
+          >
+        </li>
+        <li class="nav-item mb-2">
+          <a
+            href="/portfolio/quinceaneras"
+            class="nav-link p-0 text-body-secondary"
+            >Quinceañeras</a
+          >
+        </li>
+      </ul>
+    </div>
 
-                        <li class="list-inline-item">
+    <div class="col mb-3">
+      <h5>Book Now</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">
+          <a href="/contact" class="nav-link p-0 text-body-secondary"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
 
-                            <a href="https://facebook.com">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
+<!-- Footer -->
+<footer class="footer d-none" id="footer" style="background-color: white">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <span class="copyright"
+          >Copyright &copy; Cre8tive Wedding and Events 2023</span
+        >
+      </div>
+      <!-- Social Media -->
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li class="list-inline-item">
+            <a href="https://twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
 
-                        </li>
+          <li class="list-inline-item">
+            <a href="https://facebook.com">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
 
-                        <li class="list-inline-item">
+          <li class="list-inline-item">
+            <a href="https://linkedin.com">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
 
-                            <a href="https://linkedin.com">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
+          <li class="list-inline-item">
+            <a href="https://github.com/raviriley/agency-jekyll-theme">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
 
-                        </li>
+          <li class="list-inline-item">
+            <a href="https://instagram.com">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Legal -->
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item">
+            <a href="legal">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
 
-                        <li class="list-inline-item">
-
-                            <a href="https://github.com/raviriley/agency-jekyll-theme">
-                                <i class="fab fa-github"></i>
-                            </a>
-
-                        </li>
-
-                        <li class="list-inline-item">
-
-                            <a href="https://instagram.com">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-
-                        </li>
-
-                    </ul>
-                </div>
-                <!-- Legal -->
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li class="list-inline-item">
-                            <a href="legal">Privacy Policy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-
-    <!-- End Footer --> <!-- Bootstrap core JavaScript -->
+<!-- End Footer -->
+ <!-- Bootstrap core JavaScript -->
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.bundle.min.js"></script>
 
@@ -447,6 +565,9 @@
 
 <!-- AOS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ once: true });
+</script>
 
 <!-- FS LIGHTBOX -->
 <script src="/assets/js/fslightbox.js"></script>
