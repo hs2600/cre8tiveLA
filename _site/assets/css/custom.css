@@ -32,3 +32,12 @@
   
   transition: 0.5s;
 }
+
+.hero-btn:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.hero-btn {
+  transition: 0.2s;
+}
