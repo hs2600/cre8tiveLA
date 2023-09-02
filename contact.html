@@ -118,7 +118,7 @@ permalink: /contact
 
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-8">
+    <div class="col col-md-8 px-4">
       <form
         id="fs-frm"
         name="simple-contact-form"
@@ -147,16 +147,22 @@ permalink: /contact
         <label for="event-date" style="font-size: 18px">Venue</label>
         <input type="text" name="Venue" id="venue" />
 
-        <div class="row">
+        <label for="package" style="font-size: 18px">Package Type:</label>
+        <select id="package" name="Package Type">
+          <option value="" selected>-Select Package-</option>
+          <option value="silver-package">Silver Package</option>
+          <option value="gold-package">Gold Package</option>
+          <option value="diamond-package">Diamond Package</option>
+        </select>
+
+        <div class="row mb-3">
           <div class="col">
             {% for item in site.data._config.contact.list %}
             <div style="display: flex">
-              <input type="checkbox" name="{{item.title}}" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" style="outline: none" name="{{item.title}}" value="" />
                 {{item.title}}</label
               ><br />
             </div>
@@ -165,12 +171,10 @@ permalink: /contact
           <div class="col">
             {% for item in site.data._config.contact.list2 %}
             <div style="display: flex">
-              <input type="checkbox" name="{{item.title}}" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" name="{{item.title}}" value="" />
                 {{item.title}}</label
               ><br />
             </div>
@@ -201,3 +205,4 @@ permalink: /contact
     </div>
   </div>
 </div>
+

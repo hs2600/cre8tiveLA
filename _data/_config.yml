@@ -127,17 +127,17 @@ contact:
     - title: "Corporate Event"
     - title: "DJ/MC Service"
     - title: "Custom Lighting"
-    - title: "Red Carpet Entrance/Media Wall"
     - title: "Ceremony Service"
-    - title: "Venues"
-  list2:
+    - title: "Venue"
     - title: "Photographer"
+  list2:
     - title: "Caterer"
     - title: "Hair Stylist"
     - title: "Florist"
     - title: "Decor"
     - title: "Photobooth"
     - title: "Dance Choreography"
+    - title: "Red Carpet Entrance/Media Wall"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

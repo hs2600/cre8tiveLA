@@ -241,7 +241,7 @@
 
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-8">
+    <div class="col col-md-8 px-4">
       <form
         id="fs-frm"
         name="simple-contact-form"
@@ -270,83 +270,77 @@
         <label for="event-date" style="font-size: 18px">Venue</label>
         <input type="text" name="Venue" id="venue" />
 
-        <div class="row">
+        <label for="package" style="font-size: 18px">Package Type:</label>
+        <select id="package" name="Package Type">
+          <option value="" selected>-Select Package-</option>
+          <option value="silver-package">Silver Package</option>
+          <option value="gold-package">Gold Package</option>
+          <option value="diamond-package">Diamond Package</option>
+        </select>
+
+        <div class="row mb-3">
           <div class="col">
             
             <div style="display: flex">
-              <input type="checkbox" name="Event Planning" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" style="outline: none" name="Event Planning" value="" />
                 Event Planning</label
               ><br />
             </div>
             
             <div style="display: flex">
-              <input type="checkbox" name="Corporate Event" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" style="outline: none" name="Corporate Event" value="" />
                 Corporate Event</label
               ><br />
             </div>
             
             <div style="display: flex">
-              <input type="checkbox" name="DJ/MC Service" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" style="outline: none" name="DJ/MC Service" value="" />
                 DJ/MC Service</label
               ><br />
             </div>
             
             <div style="display: flex">
-              <input type="checkbox" name="Custom Lighting" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" style="outline: none" name="Custom Lighting" value="" />
                 Custom Lighting</label
               ><br />
             </div>
             
             <div style="display: flex">
-              <input type="checkbox" name="Red Carpet Entrance/Media Wall" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
-                Red Carpet Entrance/Media Wall</label
-              ><br />
-            </div>
-            
-            <div style="display: flex">
-              <input type="checkbox" name="Ceremony Service" value="" />
-              <label
-                class="mt-1 fw-bold"
-                for="event-planning"
-                style="font-size: 18px"
-              >
+              > <input type="checkbox" style="outline: none" name="Ceremony Service" value="" />
                 Ceremony Service</label
               ><br />
             </div>
             
             <div style="display: flex">
-              <input type="checkbox" name="Venues" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
-                Venues</label
+              > <input type="checkbox" style="outline: none" name="Venue" value="" />
+                Venue</label
+              ><br />
+            </div>
+            
+            <div style="display: flex">
+              <label
+                class="mt-1 fw-bold"
+                style="font-size: 18px"
+              > <input type="checkbox" style="outline: none" name="Photographer" value="" />
+                Photographer</label
               ><br />
             </div>
             
@@ -354,79 +348,65 @@
           <div class="col">
             
             <div style="display: flex">
-              <input type="checkbox" name="Photographer" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
-                Photographer</label
-              ><br />
-            </div>
-            
-            <div style="display: flex">
-              <input type="checkbox" name="Caterer" value="" />
-              <label
-                class="mt-1 fw-bold"
-                for="event-planning"
-                style="font-size: 18px"
-              >
+              > <input type="checkbox" name="Caterer" value="" />
                 Caterer</label
               ><br />
             </div>
             
             <div style="display: flex">
-              <input type="checkbox" name="Hair Stylist" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" name="Hair Stylist" value="" />
                 Hair Stylist</label
               ><br />
             </div>
             
             <div style="display: flex">
-              <input type="checkbox" name="Florist" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" name="Florist" value="" />
                 Florist</label
               ><br />
             </div>
             
             <div style="display: flex">
-              <input type="checkbox" name="Decor" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" name="Decor" value="" />
                 Decor</label
               ><br />
             </div>
             
             <div style="display: flex">
-              <input type="checkbox" name="Photobooth" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" name="Photobooth" value="" />
                 Photobooth</label
               ><br />
             </div>
             
             <div style="display: flex">
-              <input type="checkbox" name="Dance Choreography" value="" />
               <label
                 class="mt-1 fw-bold"
-                for="event-planning"
                 style="font-size: 18px"
-              >
+              > <input type="checkbox" name="Dance Choreography" value="" />
                 Dance Choreography</label
+              ><br />
+            </div>
+            
+            <div style="display: flex">
+              <label
+                class="mt-1 fw-bold"
+                style="font-size: 18px"
+              > <input type="checkbox" name="Red Carpet Entrance/Media Wall" value="" />
+                Red Carpet Entrance/Media Wall</label
               ><br />
             </div>
             
@@ -456,6 +436,7 @@
     </div>
   </div>
 </div>
+
 </div>
     </section>
 
