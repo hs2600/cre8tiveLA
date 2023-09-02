@@ -33,11 +33,18 @@
   transition: 0.5s;
 }
 
-.hero-btn:hover {
-  opacity: 0.5;
-  transition: 0.2s;
-}
 
-.hero-btn {
-  transition: 0.2s;
+
+/* .container-fluid {
+  --bs-gutter-x: 0!important;
+} */
+
+@media (max-width: 992px) { .hero { margin-top: -61px; } }
+
+
+
+.carousel-caption {
+
+  bottom: 5rem!important;
+
 }

@@ -37,8 +37,6 @@ plugins:
   - jekyll-feed
 
 welcome:
-  title: " "
-  text: " "
   section: welcome
   list:
     - title: "DJ/MC Service"
@@ -52,8 +50,6 @@ welcome:
       img-link: "/assets/img/home/lighting.jpg"
 
 vendors:
-  title: " "
-  text: " "
   section: vendors
   list:
     - title: "Lux Hair Studio"
@@ -102,8 +98,6 @@ vendors:
       name: "Analexa"
 
 services:
-  title: " "
-  text: " "
   section: services
   list:
     - title: "Wedding Planning"
@@ -114,8 +108,6 @@ services:
       icon-link: "fa-solid fa-cake-candles fa-stack-1x fa-inverse"
 
 packages:
-  title: " "
-  text: " "
   section: packages
   list:
     - title: "Silver Package"
@@ -127,6 +119,25 @@ packages:
     - title: "Diamond Package"
       price: "$3000"
       color: "bg-light"
+
+contact:
+  section: contact
+  list:
+    - title: "Event Planning"
+    - title: "Corporate Event"
+    - title: "DJ/MC Service"
+    - title: "Custom Lighting"
+    - title: "Red Carpet Entrance/Media Wall"
+    - title: "Ceremony Service"
+    - title: "Venues"
+  list2:
+    - title: "Photographer"
+    - title: "Caterer"
+    - title: "Hair Stylist"
+    - title: "Florist"
+    - title: "Decor"
+    - title: "Photobooth"
+    - title: "Dance Choreography"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

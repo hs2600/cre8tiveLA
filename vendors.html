@@ -26,8 +26,6 @@ permalink: /vendors
                 style="width: 350px; height: 350px; object-fit: cover"
                 class="d-block mx-auto"
                 alt="..."
-                data-bs-toggle="modal"
-                data-bs-target="#{{vendor.modal-id}}"
               />
             </div>
             <div class="carousel-item">
@@ -36,8 +34,6 @@ permalink: /vendors
                 style="width: 350px; height: 350px; object-fit: cover"
                 class="d-block mx-auto"
                 alt="..."
-                data-bs-toggle="modal"
-                data-bs-target="#{{vendor.modal-id}}"
               />
             </div>
             <div class="carousel-item">
@@ -46,8 +42,6 @@ permalink: /vendors
                 style="width: 350px; height: 350px; object-fit: cover"
                 class="d-block mx-auto"
                 alt="..."
-                data-bs-toggle="modal"
-                data-bs-target="#{{vendor.modal-id}}"
               />
             </div>
             <div class="carousel-item">
@@ -56,8 +50,6 @@ permalink: /vendors
                 style="width: 350px; height: 350px; object-fit: cover"
                 class="d-block mx-auto"
                 alt="..."
-                data-bs-toggle="modal"
-                data-bs-target="#{{vendor.modal-id}}"
               />
             </div>
             <div class="carousel-item">
@@ -66,8 +58,6 @@ permalink: /vendors
                 style="width: 350px; height: 350px; object-fit: cover"
                 class="d-block mx-auto"
                 alt="..."
-                data-bs-toggle="modal"
-                data-bs-target="#{{vendor.modal-id}}"
               />
             </div>
             <div class="carousel-item">
@@ -76,8 +66,6 @@ permalink: /vendors
                 style="width: 350px; height: 350px; object-fit: cover"
                 class="d-block mx-auto"
                 alt="..."
-                data-bs-toggle="modal"
-                data-bs-target="#{{vendor.modal-id}}"
               />
             </div>
             <div class="carousel-item">
@@ -86,8 +74,6 @@ permalink: /vendors
                 style="width: 350px; height: 350px; object-fit: cover"
                 class="d-block mx-auto"
                 alt="..."
-                data-bs-toggle="modal"
-                data-bs-target="#{{vendor.modal-id}}"
               />
             </div>
           </div>
@@ -102,195 +88,21 @@ permalink: /vendors
               <i class="fab fa-instagram"></i>
             </a>
           </li>
+          {% if vendor.title != "Photography by Ricardo Barrera" %}
           <li class="list-inline-item">
             <a href="{{vendor.yelp-link}}" target="_blank">
               <i class="fab fa-yelp"></i>
             </a>
           </li>
+          {% endif %}
         </ul>
       </div>
     </div>
 
     {% endfor %}
   </div>
-
-  <!-- Vertically centered modal -->
-  <!-- <div class="modal-dialog modal-dialog-centered" id="exampleModal">
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dicta
-        veniam repellendus optio sapiente voluptates, dignissimos rem alias ex
-        dolore iusto nesciunt, autem eligendi, necessitatibus eveniet quas
-        exercitationem facere corporis!
-      </p>
-    </div> -->
-
-  <!-- Lux Modal -->
-  <div
-    class="modal fade"
-    id="modalLux"
-    tabindex="-1"
-    aria-labelledby="modalLabelLux"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="modalLabelLux">Lux Hair Studio</h1>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-4">
-                <img
-                  src="/assets/img/vendors/lux/lux1.jpg"
-                  style="width: 200px"
-                />
-              </div>
-              <div class="col-4">
-                <img
-                  src="/assets/img/vendors/lux/lux2.jpg"
-                  style="width: 200px"
-                />
-              </div>
-              <div class="col-4">
-                <img
-                  src="/assets/img/vendors/lux/lux3.png"
-                  style="width: 200px"
-                />
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-4">
-                <img
-                  src="/assets/img/vendors/lux/lux1.jpg"
-                  style="width: 200px"
-                />
-              </div>
-              <div class="col-4">
-                <img
-                  src="/assets/img/vendors/lux/lux2.jpg"
-                  style="width: 200px"
-                />
-              </div>
-              <div class="col-4">
-                <img
-                  src="/assets/img/vendors/lux/lux3.png"
-                  style="width: 200px"
-                />
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-4">
-                <img
-                  src="/assets/img/vendors/lux/lux1.jpg"
-                  style="width: 200px"
-                />
-              </div>
-              <div class="col-4">
-                <img
-                  src="/assets/img/vendors/lux/lux2.jpg"
-                  style="width: 200px"
-                />
-              </div>
-              <div class="col-4">
-                <img
-                  src="/assets/img/vendors/lux/lux3.png"
-                  style="width: 200px"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button
-            type="button"
-            class="btn btn-secondary"
-            data-bs-dismiss="modal"
-          >
-            Close
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- RicardoB Modal -->
-  <div
-    class="modal fade"
-    id="modalRicardoB"
-    tabindex="-1"
-    aria-labelledby="modalLabelRicardoB"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="modalLabelRicardoB">
-            Photography by Ricardo Barrera
-          </h1>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">...</div>
-        <div class="modal-footer">
-          <button
-            type="button"
-            class="btn btn-secondary"
-            data-bs-dismiss="modal"
-          >
-            Close
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Analexas Modal -->
-  <div
-    class="modal fade"
-    id="modalAnalexas"
-    tabindex="-1"
-    aria-labelledby="modalLabelAnalexas"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="modalLabelAnalexas">
-            Analexa's Events
-          </h1>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">...</div>
-        <div class="modal-footer">
-          <button
-            type="button"
-            class="btn btn-secondary"
-            data-bs-dismiss="modal"
-          >
-            Close
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 <!-- End Team -->
+
+{% include next-step.html %}

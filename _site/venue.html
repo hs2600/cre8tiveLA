@@ -54,6 +54,12 @@
   <!--<link href="/assets/css/agency.min.css" rel="stylesheet">-->
   <link href="/assets/css/agency.css" rel="stylesheet" />
 
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  />
+
   <!-- Page container change top padding when nav shrinks -->
 </head>
 
@@ -73,11 +79,11 @@
   aria-controls="navbarResponsive"
   aria-expanded="false"
   aria-label="Toggle navigation"
-  style="margin-right: 10px; font-size: 20px; background-color: #212529"
+  style="margin-right: 25px; font-size: 20px; background-color: #212529"
 >
   <i class="fas fa-bars"></i>
 </button>
-<div class="collapse navbar-collapse" id="navbarResponsive">
+<div class="collapse navbar-collapse p-4" id="navbarResponsive">
   <ul class="navbar-nav text-uppercase ml-auto">
     <li class="nav-item">
       <a class="nav-link js-scroll-trigger" href="/services">Services</a>
@@ -281,44 +287,46 @@
   </div>
 </div>
 
-<div class="container mt-5 mb-5">
-  <div class="row mb-5">
-    <div
-      class="col text-center justify-content-center"
-      style="border: 1px dashed red"
-    >
-      <img src="/assets/img/space-wcrb/3.jpg" style="width: 600px" />
-    </div>
-    <div class="col">
-      <h2 class="my-3">Rental Options</h2>
-      <p class="fs-5">
-        You can either rent the venue and bring your own food, drinks, and
-        decorations, or you can opt for Cre8tiveLA to handle your event by
-        providing rentals and managing all the planning, which is our expertise!
-      </p>
-      <p class="fs-5">
-        The duration of each rental is for 6 hours, as well as a 2-hour window
-        before the rental time for event decoration and an additional 1-hour
-        grace period for post-event clean-up. <br />
+<div class="container-fluid my-5 py-5 mb-5" style="background-color: #fefcfa">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6 text-center">
+        <img src="/assets/img/space-wcrb/3.jpg" style="width: 100%" />
+      </div>
+      <div class="col col-md-6">
+        <h2 class="my-3">Rental Options</h2>
+        <p class="fs-5">
+          You can either rent the venue and bring your own food, drinks, and
+          decorations, or you can opt for Cre8tiveLA to handle your event by
+          providing rentals and managing all the planning, which is our
+          expertise!
+        </p>
+        <p class="fs-5">
+          The duration of each rental is for 6 hours, as well as a 2-hour window
+          before the rental time for event decoration and an additional 1-hour
+          grace period for post-event clean-up. <br />
 
-        <a href="/services" class="link-secondary">
-          Learn more about our services</a
-        >
-      </p>
+          <a href="/services" class="link-secondary">
+            Learn more about our services</a
+          >
+        </p>
+      </div>
     </div>
   </div>
+</div>
 
+<div class="container mb-5">
   <div class="row">
-    <div class="col text-center justify-content-center">
-      <img src="/assets/img/space-wcrb/patio.jpg" style="width: 600px" />
+    <div class="col-sm-12 col-lg-6 text-center">
+      <img src="/assets/img/space-wcrb/patio.jpg" style="width: 100%" />
     </div>
-    <div class="col">
+    <div class="col col-md-6">
       <h2 class="my-3">Rental Package</h2>
 
       <p class="fs-5">
-        Rental package includes <strong> Cleanup Services </strong> and a
-        dedicated <strong> Staff Member</strong> for the day, responsible for
-        setting up tables and chairs according to your preferences.<br />
+        Rental package includes Cleanup Services and a dedicated Staff Member
+        for the day, responsible for setting up tables and chairs according to
+        your preferences.<br />
       </p>
 
       <p class="fs-5">
@@ -333,9 +341,9 @@
   </div>
 </div>
 
-<div class="container text-center">
+<div class="container text-center d-none d-md-block">
   <iframe
-    width="853"
+    width="70%"
     height="480"
     src="https://my.matterport.com/show/?m=7oycgZUbiYu"
     frameborder="0"
@@ -346,8 +354,8 @@
 </div>
 
 <!-- === MAP + CONTACT === -->
-<!-- xxl container -->
-<div class="container-xxl text-center mt-4 text-center justify-content-center">
+
+<div class="container text-center mt-4 text-center justify-content-center mb-5">
   <div class="row">
     <div class="col mb-3">
       <iframe
@@ -357,12 +365,11 @@
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        data-aos="zoom-out"
         class="border border-3"
       ></iframe>
     </div>
   </div>
-  <div class="row justify-content-center" data-aos="zoom-out">
+  <div class="row justify-content-center">
     <div class="col-9">
       <h5 class="fw-bold">Space WCRB of Redondo Beach</h5>
       <h6 class="mb-3">400 S Broadway, Redondo Beach</h6>
@@ -375,29 +382,25 @@
   </div>
 </div>
 <!-- === MAP + CONTACT END === -->
-</div>
-    </section>
 
-    <div class="container">
+<div class="container" style="margin-bottom: -100px">
   <div class="row text-center">
     <div class="col">
       <h1>Next Step:</h1>
       <h5>Start planning your event today with Cre8tiveLA.</h5>
       <a href="/contact">
-        <button type="button" class="btn btn-dark py-2 px-4 mt-4">
+        <button type="button" class="btn btn-dark py-2 px-4 mt-3">
           Book Now
         </button>
       </a>
     </div>
-    <!-- <div class="col">
-      <button type="button" class="btn btn-dark py-2 px-4 mt-4">
-        Book Now
-      </button>
-    </div> -->
   </div>
 </div>
 
-<div class="container-fluid" style="background-color: #f5f5f5">
+</div>
+    </section>
+
+    <div class="container-fluid" style="background-color: #f5f5f5">
   <footer
     class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top justify-content-center"
   >
