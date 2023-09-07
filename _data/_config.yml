@@ -1,0 +1,159 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Cre8tive Wedding and Events
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+about: >- # this means to ignore newlines until "baseurl:"
+  This will be the about text
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username: jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+welcome:
+  section: welcome
+  list:
+    - title: "DJ/MC Service"
+      desc: "With over 25 years of experience, Cre8tiveLA will take your party to the next level whether it's a Wedding, Quinceañera, Corporate Event, or Private Party!"
+      img-link: "/assets/img/home/djmc-service.jpg"
+    - title: "Event Planning"
+      desc: "Event planning at its finest. Let Cre8tiveLA book all your vendors, coordinate the timeline, and run your event!"
+      img-link: "/assets/img/home/event-planning.jpg"
+    - title: "Custom Lighting"
+      desc: "Transform your ordinary banquet hall into the space of your dreams with custom lighting options to create a cool vibe."
+      img-link: "/assets/img/home/lighting.jpg"
+
+vendors:
+  section: vendors
+  list:
+    - title: "Lux Hair Studio"
+      logo-link: "/assets/img/vendors/lux/lux-logo.webp"
+      img1-link: "/assets/img/vendors/lux/1.png"
+      img2-link: "/assets/img/vendors/lux/2.png"
+      img3-link: "/assets/img/vendors/lux/3.png"
+      img4-link: "/assets/img/vendors/lux/4.png"
+      img5-link: "/assets/img/vendors/lux/5.jpg"
+      img6-link: "/assets/img/vendors/lux/6.jpg"
+      carousel-id: "carouselLux"
+      modal-id: "modalLux"
+      ig-link: "https://www.instagram.com/luxxhair/"
+      yelp-link: "https://www.yelp.com/biz/lux-hair-studio-torrance"
+      phoneno: "(310)918-7841"
+      services: "Hair Stylist/Makeup Artist"
+      name: "Nancy Toro"
+    - title: "Photography by Ricardo Barrera"
+      logo-link: "/assets/img/vendors/photo-ricardob/ricardob-logo.webp"
+      img1-link: "/assets/img/vendors/photo-ricardob/1.png"
+      img2-link: "/assets/img/vendors/photo-ricardob/2.png"
+      img3-link: "/assets/img/vendors/photo-ricardob/3.png"
+      img4-link: "/assets/img/vendors/photo-ricardob/4.png"
+      img5-link: "/assets/img/vendors/photo-ricardob/5.png"
+      img6-link: "/assets/img/vendors/photo-ricardob/6.png"
+      carousel-id: "carouselRicardoB"
+      modal-id: "modalRicardoB"
+      ig-link: "https://www.instagram.com/photographybyricardo/"
+      phoneno: "(714)715-1717"
+      services: "Photography/Videography"
+      name: "Ricardo Barrera"
+    - title: "Analexa's Events"
+      logo-link: "/assets/img/vendors/analexas/al-logo.jpg"
+      img1-link: "/assets/img/vendors/analexas/1.png"
+      img2-link: "/assets/img/vendors/analexas/2.png"
+      img3-link: "/assets/img/vendors/analexas/3.png"
+      img4-link: "/assets/img/vendors/analexas/4.png"
+      img5-link: "/assets/img/vendors/analexas/5.png"
+      img6-link: "/assets/img/vendors/analexas/6.png"
+      carousel-id: "carouselAnalexas"
+      modal-id: "modalAnalexas"
+      ig-link: "https://www.instagram.com/analexas/"
+      yelp-link: "https://www.yelp.com/biz/analexas-events-san-pedro-2"
+      phoneno: "(123)456-7890"
+      services: "Event Planning/Decor"
+      name: "Analexa"
+
+services:
+  section: services
+  list:
+    - title: "Wedding Planning"
+      desc: "We offer a range of wedding planning services, including Day of Wedding Planning and Complete Wedding Planning options. Our services cover everything from booking all wedding vendors to arranging transportation to vendor meetings, while benefiting from unlimited office consultations. We handle vendor payments, on your behalf, with the convenience of a single invoice. Our fee structure involves a 20% charge based on the entire invoice. Our professional staff ensures seamless event execution."
+      icon-link: "fa-solid fa-ring fa-stack-1x fa-inverse"
+    - title: "Event Planning"
+      desc: "Our services cover a wide spectrum of events, including Corporate Events, Quinceañeras, and Ceremonies. We also provide a variety of additional offerings such as PA Systems, Photobooths, Photographers, Videographers, Catering, and Decor. Furthermore, we offer Video Projectors and Screens, Florists, Venues, Hair Stylists, Makeup Artists, Casino Party Rentals, as well as accessories like Step and Repeat Banners, Red Carpet, and Velvet Rope Stanchions."
+      icon-link: "fa-solid fa-cake-candles fa-stack-1x fa-inverse"
+
+packages:
+  section: packages
+  list:
+    - title: "Silver Package"
+      price: "$2000"
+      color: "bg-secondary-subtle"
+    - title: "Gold Package"
+      price: "$2700"
+      color: "bg-warning"
+    - title: "Diamond Package"
+      price: "$3000"
+      color: "bg-light"
+
+contact:
+  section: contact
+  list:
+    - title: "Event Planning"
+    - title: "Corporate Event"
+    - title: "DJ/MC Service"
+    - title: "Custom Lighting"
+    - title: "Ceremony Service"
+    - title: "Venue"
+    - title: "Photographer"
+  list2:
+    - title: "Caterer"
+    - title: "Hair Stylist"
+    - title: "Florist"
+    - title: "Decor"
+    - title: "Photobooth"
+    - title: "Dance Choreography"
+    - title: "Red Carpet Entrance/Media Wall"
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

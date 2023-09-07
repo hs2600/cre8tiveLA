@@ -1,0 +1,108 @@
+---
+layout: main
+title: Vendors
+permalink: /vendors/
+---
+
+<h2 class="section-heading text-uppercase text-center py-5">
+  MEET OUR VENDORS!
+</h2>
+
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    {% for vendor in site.data._config.vendors.list %}
+    <div class="col-sm-4">
+      <div class="team-member" data-aos="flip-left">
+        <div
+          id="{{vendor.carousel-id}}"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+          data-pause="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="{{vendor.logo-link}}"
+                style="width: 350px; height: 350px; object-fit: cover"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="{{vendor.img1-link}}"
+                style="width: 350px; height: 350px; object-fit: cover"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="{{vendor.img2-link}}"
+                style="width: 350px; height: 350px; object-fit: cover"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="{{vendor.img3-link}}"
+                style="width: 350px; height: 350px; object-fit: cover"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="{{vendor.img4-link}}"
+                style="width: 350px; height: 350px; object-fit: cover"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="{{vendor.img5-link}}"
+                style="width: 350px; height: 350px; object-fit: cover"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="{{vendor.img6-link}}"
+                style="width: 350px; height: 350px; object-fit: cover"
+                class="d-block mx-auto"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+
+        <h4>{{vendor.title}}</h4>
+        <p class="text-muted mb-2">{{vendor.services}}</p>
+        <!-- <h5 class="fw-normal mb-2">{{vendor.name}}</h5> -->
+        <ul class="list-inline social-buttons">
+          <li class="list-inline-item">
+            <a href="{{vendor.ig-link}}" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          {% if vendor.title != "Photography by Ricardo Barrera" %}
+          <li class="list-inline-item">
+            <a href="{{vendor.yelp-link}}" target="_blank">
+              <i class="fab fa-yelp"></i>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
+</div>
+
+<!-- End Team -->
+
+{% include next-step.html %}
