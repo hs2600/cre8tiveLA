@@ -117,7 +117,7 @@ packages:
       price: "$2700"
       color: "bg-warning"
     - title: "Diamond Package"
-      price: "$3000"
+      price: "$4300"
       color: "bg-light"
 
 contact:
